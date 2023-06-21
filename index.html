@@ -4,27 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
     <style>
       .custom-badge {
-    padding: 8px 12px;
-  }
+        padding: 8px 12px;
+      }
     </style>
   </head>
   <body>
 
+    <!-- Header Section -->
     <div class="container-fluid" style="background-image: url('Header-llustration-desktop.png'); background-size: 100%;">
         <div class="container">
             <div class="row">
              
               <div class="offset-5 col">
+                <!-- Navigation Bar -->
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
+                        <div class="navbar-nav d-flex justify-content-center">
                           <a class="nav-link active" aria-current="page" href="#">Porfolio</a>
                           <a class="nav-link" href="#">About</a>
                           <a class="nav-link" href="#">Contact</a>
@@ -38,26 +43,31 @@
             </div>
           </div>
         
+          <!-- Main Content Section -->
           <div class="container">
             <div class="row">
-                <div class="offset-3 col-md-6 p-5" style= "margin-top: 200px;"  >
+                <div class="offset-3 col-md-6 p-5" style= "margin-top: 200px;">
                     
-                    <h1 >
-                        <span class="display-5 d-flex justify-content-center">
+                    <!-- Heading -->
+                    <h1>
+                        <!-- First Line -->
+                        <span class="display-5 d-flex justify-content-center" style="color: #172B4D;">
                             Hey there. I'm Abdul Salam.
                         </span>
+                        <!-- Second Line -->
                         <span class="display-5 d-flex justify-content-center" style="color: #36B37E;">
                             I'm a software developer
                         </span>
-                        
                     </h1>   
         
+                    <!-- Paragraph -->
                     <p class="display-10 d-flex justify-content-center">
                         I can help you build a product, feature or website. Look through some
                         of my work and experience! If you like what you see and have a project
                         you need coded, don’t hesitate to contact me.
                       </p>
 
+                      <!-- Social Icons -->
                       <div class="row justify-content-center mt-5 mb-3">
                         <a href="#" class="col-auto px-2"><img src="Icon-Github.svg" alt="Github"></a>
                         <a href="#" class="col-auto px-2"><img src="Icon-LinkedIn.svg" alt="LinkedIn"></a>
@@ -65,6 +75,8 @@
                         <a href="#" class="col-auto px-2"><img src="Icon-Twitter.svg" alt="Twitter"></a>
                         <a href="#" class="col-auto px-2"><img src="Icon-Medium.svg" alt="Medium"></a>
                       </div>
+
+                      <!-- Down Arrow -->
                       <div class="row justify-content-center mt-5 mb-3">
                         <div class="col-auto mt-5" style="margin-bottom: 160px;">
                           <div class="card bg-transparent border-0" style="width: 40px; height: 40px; background: url('Ellipse15.svg') no-repeat center center / cover;">
@@ -73,72 +85,127 @@
                             </div>
                           </div>
                         </div>
-                      </div>                                                                             
-    
+                      </div>                                                                            
                 </div>
             </div>
-    
           </div>
     </div>
 
-    <div class="container px-5">
-      <div class="row">
-        <div class="offset-5 col">
-          <h1>My Recent Works</h1>
-        </div>
-      </div>
+   <!-- Recent Works Section -->
+   <div class="container px-5">
+    <div class="row">
+      <div class="offset-4 col pt-5">
+      <h1>My Recent Works</h1>
+    </div>
+  </div>
 
-      <div class="row">
-        <!-- First Row -->
-        <div class="col-md-4 pt-5">
-          <!-- Card 1 -->
-          <div class="card">
-            <img src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center">Multi-Post Stories<br>Gain+Glory</h5>
-              <div class="card-body">
-                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">Ruby on Rails</a>
-                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">CSS</a>
-                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">JavaScript</a>
-                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">HTML</a>
-
-
-              </div>
-              <button type="button" class="btn btn-success d-block mx-auto">See project</button>
-
-            </div>
+  <div class="row">
+    <!-- First Row -->
+    <div class="col-md-4 pt-5">
+      <!-- Card 1 -->
+      <div class="card" style="width: 369px; height: 474px; flex-shrink: 0; border-radius: 8px; border: 1px solid var(--theme-2-neutral-9, #D0D9D4); background: var(--theme-2-neutral-10, #EBF0EE);">
+        <img src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <h5 class="card-title text-center">Multi-Post Stories<br>Gain+Glory</h5>
+          <div class="card-body">
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">Ruby on Rails</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">CSS</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">JavaScript</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">HTML</a>
           </div>
-        </div>
-        <div class="col-md-4 pt-5">
-          <!-- Card 2 -->
-          <!-- Copy the card code from Card 1 and paste it here -->
-        </div>
-        <div class="col-md-4">
-          <!-- Card 3 -->
-          <!-- Copy the card code from Card 1 and paste it here -->
-        </div>
-      </div>
-
-      <div class="row">
-        <!-- Second Row -->
-        <div class="col-md-4">
-          <!-- Card 4 -->
-          <!-- Copy the card code from Card 1 and paste it here -->
-        </div>
-        <div class="col-md-4">
-          <!-- Card 5 -->
-          <!-- Copy the card code from Card 1 and paste it here -->
-        </div>
-        <div class="col-md-4">
-          <!-- Card 6 -->
-          <!-- Copy the card code from Card 1 and paste it here -->
+          <button type="button" class="btn btn-success d-block mx-auto">See project</button>
         </div>
       </div>
     </div>
+    <div class="col-md-4 pt-5">
+      <!-- Card 2 -->
+      <div class="card" style="width: 369px; height: 474px; flex-shrink: 0; border-radius: 8px; border: 1px solid var(--theme-2-neutral-9, #D0D9D4); background: var(--theme-2-neutral-10, #EBF0EE);">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <h5 class="card-title text-center">Multi-Post Stories<br>Gain+Glory</h5>
+          <div class="card-body">
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">Ruby on Rails</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">CSS</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">JavaScript</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">HTML</a>
+          </div>
+          <button type="button" class="btn btn-success d-block mx-auto">See project</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 pt-5">
+      <!-- Card 3 -->
+      <div class="card" style="width: 369px; height: 474px; flex-shrink: 0; border-radius: 8px; border: 1px solid var(--theme-2-neutral-9, #D0D9D4); background: var(--theme-2-neutral-10, #EBF0EE);">
+        <img src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=962&q=80" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <h5 class="card-title text-center">Multi-Post Stories<br>Gain+Glory</h5>
+          <div class="card-body">
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">Ruby on Rails</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">CSS</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">JavaScript</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">HTML</a>
+          </div>
+          <button type="button" class="btn btn-success d-block mx-auto">See project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- Second Row -->
+    <div class="col-md-4 pt-5">
+      <!-- Card 4 -->
+      <div class="card" style="width: 369px; height: 474px; flex-shrink: 0; border-radius: 8px; border: 1px solid var(--theme-2-neutral-9, #D0D9D4); background: var(--theme-2-neutral-10, #EBF0EE);">
+        <img src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <h5 class="card-title text-center">Multi-Post Stories<br>Gain+Glory</h5>
+          <div class="card-body">
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">Ruby on Rails</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">CSS</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">JavaScript</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">HTML</a>
+          </div>
+          <button type="button" class="btn btn-success d-block mx-auto">See project</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 pt-5">
+      <!-- Card 5 -->
+      <div class="card" style="width: 369px; height: 474px; flex-shrink: 0; border-radius: 8px; border: 1px solid var(--theme-2-neutral-9, #D0D9D4); background: var(--theme-2-neutral-10, #EBF0EE);">
+        <img src="https://images.unsplash.com/photo-1519211975560-4ca611f5a72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <h5 class="card-title text-center">Multi-Post Stories<br>Gain+Glory</h5>
+          <div class="card-body">
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">Ruby on Rails</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">CSS</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">JavaScript</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">HTML</a>
+          </div>
+          <button type="button" class="btn btn-success d-block mx-auto">See project</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 pt-5">
+      <!-- Card 6 -->
+      <div class="card" style="width: 369px; height: 474px; flex-shrink: 0; border-radius: 8px; border: 1px solid var(--theme-2-neutral-9, #D0D9D4); background: var(--theme-2-neutral-10, #EBF0EE);">
+        <img src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <h5 class="card-title text-center">Multi-Post Stories<br>Gain+Glory</h5>
+          <div class="card-body">
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">Ruby on Rails</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">CSS</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">JavaScript</a>
+            <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">HTML</a>
+          </div>
+          <button type="button" class="btn btn-success d-block mx-auto">See project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       
-    </div>
-    </div>
-
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
