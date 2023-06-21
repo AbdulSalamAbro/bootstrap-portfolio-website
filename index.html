@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+      .custom-badge {
+    padding: 8px 12px;
+  }
+    </style>
   </head>
   <body>
 
@@ -35,23 +43,37 @@
                 <div class="offset-3 col-md-6 p-5" style= "margin-top: 200px;"  >
                     
                     <h1 >
-                        <span class="display-5">
-                            Hey there
-                        I'm Abdul Salam
+                        <span class="display-5 d-flex justify-content-center">
+                            Hey there. I'm Abdul Salam.
                         </span>
-                        <span class="display-5">
-                            I',m a Software
-                            Developer
+                        <span class="display-5 d-flex justify-content-center" style="color: #36B37E;">
+                            I'm a software developer
                         </span>
                         
                     </h1>   
         
-                    <p>
-                        I can help you build a product, feature or website Look through some
+                    <p class="display-10 d-flex justify-content-center">
+                        I can help you build a product, feature or website. Look through some
                         of my work and experience! If you like what you see and have a project
                         you need coded, don’t hesitate to contact me.
                       </p>
-                    
+
+                      <div class="row justify-content-center mt-5 mb-3">
+                        <a href="#" class="col-auto px-2"><img src="Icon-Github.svg" alt="Github"></a>
+                        <a href="#" class="col-auto px-2"><img src="Icon-LinkedIn.svg" alt="LinkedIn"></a>
+                        <a href="#" class="col-auto px-2"><img src="Icon-AngelList.svg" alt="AngelList"></a>
+                        <a href="#" class="col-auto px-2"><img src="Icon-Twitter.svg" alt="Twitter"></a>
+                        <a href="#" class="col-auto px-2"><img src="Icon-Medium.svg" alt="Medium"></a>
+                      </div>
+                      <div class="row justify-content-center mt-5 mb-3">
+                        <div class="col-auto mt-5" style="margin-bottom: 160px;">
+                          <div class="card bg-transparent border-0" style="width: 40px; height: 40px; background: url('Ellipse15.svg') no-repeat center center / cover;">
+                            <div class="card-body p-0 d-flex align-items-center justify-content-center">
+                              <img src="Down-Larger.svg" alt="Down" class="border rounded-circle" style="border-color: var(--neutrals-n-40, #DFE1E6); background-color: var(--neutrals-n-0, #FFF); width: 60%; height: 60%;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>                                                                             
     
                 </div>
             </div>
@@ -59,37 +81,64 @@
           </div>
     </div>
 
-    <div class="container">
+    <div class="container px-5">
       <div class="row">
         <div class="offset-5 col">
-          <h1>My Recent Work</h1>
+          <h1>My Recent Works</h1>
         </div>
       </div>
 
       <div class="row">
- 
+        <!-- First Row -->
+        <div class="col-md-4 pt-5">
+          <!-- Card 1 -->
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Multi-Post Stories<br>Gain+Glory</h5>
+              <div class="card-body">
+                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">Ruby on Rails</a>
+                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">CSS</a>
+                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">JavaScript</a>
+                <a href="#" class="badge bg-light text-dark text-decoration-none me-1 mx-1 custom-badge">HTML</a>
 
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-       
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+
+              </div>
+              <button type="button" class="btn btn-success d-block mx-auto">See project</button>
+
+            </div>
           </div>
-          <button type="button" class="btn btn-success">Success</button>
+        </div>
+        <div class="col-md-4 pt-5">
+          <!-- Card 2 -->
+          <!-- Copy the card code from Card 1 and paste it here -->
+        </div>
+        <div class="col-md-4">
+          <!-- Card 3 -->
+          <!-- Copy the card code from Card 1 and paste it here -->
         </div>
       </div>
+
+      <div class="row">
+        <!-- Second Row -->
+        <div class="col-md-4">
+          <!-- Card 4 -->
+          <!-- Copy the card code from Card 1 and paste it here -->
+        </div>
+        <div class="col-md-4">
+          <!-- Card 5 -->
+          <!-- Copy the card code from Card 1 and paste it here -->
+        </div>
+        <div class="col-md-4">
+          <!-- Card 6 -->
+          <!-- Copy the card code from Card 1 and paste it here -->
+        </div>
+      </div>
+    </div>
       
     </div>
     </div>
 
-   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
