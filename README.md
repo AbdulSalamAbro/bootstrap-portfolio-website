@@ -2,7 +2,6 @@
 
 <div align="center">
 
-
   <h3><b>Personal Portfolio Website using Bootstrap Framework</b></h3>
 
 </div>
@@ -33,7 +32,7 @@
 
 # 📖 Mobile-Version-Portfolio <a name="about-project"></a>
 
-**Portfolio-setup-and-mobile-first** is a first Project of Microverse Module 1  to showcase html and css skills gained during week 1 of the Microverse program.
+**Portfolio-setup-and-mobile-first** is a first Project of Microverse Module 1 to showcase html and css skills gained during week 1 of the Microverse program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,10 +48,7 @@
 - **Responsive Pages**
 - **USe Css FlexBox and Grid Css**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 
@@ -129,11 +125,9 @@ To run tests, run the following command:
 - Twitter: [@Abdul Salam](https://twitter.com/Abdul_SalamAbro)
 - LinkedIn: [@Abdul Salam](https://www.linkedin.com/in/abdul-salam-abro/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
 
 <!-- FUTURE FEATURES -->
 
@@ -155,6 +149,12 @@ These are the coming soon features for this project:
 Name: Mohammad Jalal Ahmadi https://github.com/jalal1379 colaborate on contact-form-pair-programing branch
 
 Feel free to check the [issues page](../../issues/).
+
+👤 Cristian Villa
+
+- GitHub: [@CVILLA09](https://github.com/CVILLA09)
+
+Colaborated on bootstrap-portfolio branch.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
