@@ -148,7 +148,7 @@ These are the coming soon features for this project:
 
 👤 Mohammad Jalal Ahmadi
 
-- GitHub: [@jalal1379]([https://github.com/CVILLA09](https://github.com/jalal1379))
+- GitHub: [@jalal1379]([https://github.com/jalal1379))
 
 Colaborated on contact-form-pair-programing branch.
 
